@@ -1,0 +1,11 @@
+\begin{thebibliography}{1}
+
+\bibitem{efthymiou2019tensornetwork}
+Stavros Efthymiou, Jack Hidary, and Stefan Leichenauer.
+\newblock Tensornetwork for machine learning, 2019.
+
+\bibitem{roberts2019tensornetwork}
+Chase Roberts, Ashley Milsted, Martin Ganahl, Adam Zalcman, Bruce Fontaine, Yijian Zou, Jack Hidary, Guifre Vidal, and Stefan Leichenauer.
+\newblock Tensornetwork: A library for physics and machine learning, 2019.
+
+\end{thebibliography}

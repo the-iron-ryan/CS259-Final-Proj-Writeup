@@ -1,0 +1,52 @@
+\documentclass{ipgpmaster}
+%
+% chktex-file 44
+\usepackage[T1]{fontenc}
+\usepackage{amsmath}
+\usepackage{booktabs}
+\usepackage{scalerel,stackengine}
+\usepackage{quantikz}
+\newcommand{\units}[1]{\ensuremath{\, \mathrm{#1}}}
+
+
+\begin{document}
+\checkyears
+
+\vspace*{5mm}
+
+\setkeys{Gin}{draft=false} % images affichées
+
+\selectlanguage{english} 
+
+
+\def\author{Ryan, Arvind, Payal, and Will}
+\def\title{CS 259: Final Project \\ Tensor Networks for Machine Learning}
+\def\shorttitle{Two Qubits}
+\def\unit{UCLA - MQST}
+\def\team{Ryan, Arvind, Payal, and Will}
+\def\spe{MQST}
+\def\supervisor{Tony Nowatzki}
+\def\mydate{\today}
+
+\Entete
+
+\begin{abstract}
+For our project we chose to explore the methods of the Google X paper 'Tensor Networks for Machine Learning' by Jack Hidary et al \cite{roberts2019tensornetwork}. Here, the authors explore the use of tensor networks to improve the training performance of classifier neural networks. This is done by using tensor networks to compress the weights of the neural network, which reduces the number of parameters that need to be trained. Representing the weights in
+\end{abstract}
+
+\newpage
+\tableofcontents
+\newpage
+
+\section{Methodology}
+\subsection{Matrix Product States}
+
+\section{Evaluation}
+\section{Conclusion}
+\section{Statement of Work}
+
+\nocite{*}
+\bibliographystyle{plain} % We choose the "plain" reference style
+\bibliography{refs} % Entries are in the refs.bib file
+
+\end{document}
